@@ -4,3 +4,8 @@ def saludo(name: str):
     """Genera un saludo simple."""
     message = f"Hola, {name}!"
     print_message(message)
+
+def greet_in_english(name: str):
+    """Genera un saludo simple en inglés."""
+    message = f"Hello, {name}!"
+    print_message(message)
